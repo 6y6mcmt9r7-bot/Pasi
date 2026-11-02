@@ -1,0 +1,85 @@
+{
+  "project_name": "kaugummi",
+  "topic": "Was passiert, wenn man Kaugummi verschluckt?",
+  "language": "de",
+  "aspect_ratio": "9:16",
+  "style_preset": "zackd_3d_stylized",
+  "narrator_voice": "cloned_user_voice",
+  "character_sheets_required": [
+    "boy_turnaround",
+    "pink_gum_blob_turnaround",
+    "digestive_tract_cross_section_turnaround"
+  ],
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "narration": "Du hast gerade deinen Kaugummi verschluckt. Und angeblich bleibt er jetzt sieben Jahre in deinem Magen.",
+      "title_en": "Hook",
+      "hook": true,
+      "shots": [
+        {"shot_id": "beat_1_a", "type": "wide", "duration_sec": 3.0,
+         "scene_description": "Stylized 3D boy at a school desk gulps, eyes wide, a pink bubble gum disappearing into his mouth, bright studio lighting.",
+         "camera_move": "push_in", "character_refs": ["boy_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": false},
+        {"shot_id": "beat_1_b", "type": "macro_cross_section", "duration_sec": 3.0,
+         "scene_description": "3D cutaway of the boy's throat, pink gum blob sliding down the esophagus toward the stomach.",
+         "camera_move": "tilt_down", "character_refs": ["digestive_tract_cross_section_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": true}
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "narration": "Im Magen wartet Säure, die Fleisch zersetzen kann. Aber der Kaugummi... wird einfach nicht kleiner.",
+      "title_en": "Acid Attack",
+      "hook": false,
+      "shots": [
+        {"shot_id": "beat_2_a", "type": "macro", "duration_sec": 3.0,
+         "scene_description": "Inside a glossy pink 3D stomach, bubbling green-yellow acid splashes around the intact pink gum blob.",
+         "camera_move": "pan_right", "character_refs": ["digestive_tract_cross_section_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": false},
+        {"shot_id": "beat_2_b", "type": "detail", "duration_sec": 3.0,
+         "scene_description": "Extreme close-up of the gum blob surface: acid droplets bead up and roll off, gum completely unchanged.",
+         "camera_move": "static", "character_refs": ["pink_gum_blob_turnaround"], "zoom_impact": true}
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "narration": "Denn Kaugummi besteht aus einer Gummibasis, die dein Körper gar nicht verdauen kann. Nur Zucker und Aroma werden aufgenommen.",
+      "title_en": "Gum Base",
+      "hook": false,
+      "shots": [
+        {"shot_id": "beat_3_a", "type": "macro_cross_section", "duration_sec": 3.0,
+         "scene_description": "3D cross-section of the gum blob revealing a rubbery polymer core; tiny glowing sugar and flavor particles float out of it and get absorbed into the stomach wall.",
+         "camera_move": "orbit", "character_refs": ["pink_gum_blob_turnaround"], "zoom_impact": false},
+        {"shot_id": "beat_3_b", "type": "detail", "duration_sec": 3.0,
+         "scene_description": "Enzymes depicted as small clay pac-man shapes bite the gum and bounce off it.",
+         "camera_move": "push_in", "character_refs": ["pink_gum_blob_turnaround"], "zoom_impact": true}
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "narration": "Also macht dein Darm das Einzige, was ihm bleibt: Er schiebt ihn mit Muskelwellen einfach weiter. Meter für Meter.",
+      "title_en": "Peristalsis",
+      "hook": false,
+      "shots": [
+        {"shot_id": "beat_4_a", "type": "wide", "duration_sec": 3.0,
+         "scene_description": "3D cutaway of the coiled small intestine, rhythmic muscle waves squeezing the pink gum blob along the tube.",
+         "camera_move": "tracking", "character_refs": ["digestive_tract_cross_section_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": false},
+        {"shot_id": "beat_4_b", "type": "detail", "duration_sec": 3.0,
+         "scene_description": "Close-up of an intestinal wall contracting around the gum and popping it forward.",
+         "camera_move": "static", "character_refs": ["digestive_tract_cross_section_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": true}
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "narration": "Und nach ein paar Tagen ist er wieder draußen. Nicht nach sieben Jahren. Gefährlich wird's nur, wenn man sehr viel auf einmal schluckt.",
+      "title_en": "Way Out",
+      "hook": false,
+      "shots": [
+        {"shot_id": "beat_5_a", "type": "macro_cross_section", "duration_sec": 3.0,
+         "scene_description": "3D cutaway of the large intestine, the gum blob moving toward the exit, a small clay calendar flipping from day 1 to day 3.",
+         "camera_move": "pull_out", "character_refs": ["digestive_tract_cross_section_turnaround", "pink_gum_blob_turnaround"], "zoom_impact": false},
+        {"shot_id": "beat_5_b", "type": "wide", "duration_sec": 3.0,
+         "scene_description": "Stylized 3D boy relieved and smiling, then looks warily at a huge pile of gum packs on his desk.",
+         "camera_move": "push_in", "character_refs": ["boy_turnaround"], "zoom_impact": true}
+      ]
+    }
+  ]
+}
