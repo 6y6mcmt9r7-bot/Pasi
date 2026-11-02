@@ -1,0 +1,25 @@
+{
+  "project_name": "muecke",
+  "topic": "Was passiert, wenn dich eine Mücke sticht?",
+  "language": "de",
+  "aspect_ratio": "9:16",
+  "hook_text": "Was passiert WIRKLICH, wenn dich eine Mücke sticht?",
+  "beats": [
+    {"beat_id": "beat_1", "narration": "Das hier passiert gerade unter deiner Haut. Und du merkst es nicht mal.",
+     "shots": [{"shot_id": "beat_1_a", "zoom_impact": false,
+       "scene_description": "Extreme macro side cross-section of human skin: a mosquito standing on the skin surface at the top, its proboscis piercing down through the skin layers toward a red blood vessel below.",
+       "motion": "The proboscis slowly pushes deeper through the skin layers toward the blood vessel, slow camera push in."}]},
+    {"beat_id": "beat_2", "narration": "Denn ihr Rüssel ist keine Nadel. Es sind sechs. Zwei sägen sich durch deine Haut, zwei halten sie offen.",
+     "shots": [{"shot_id": "beat_2_a", "zoom_impact": true,
+       "scene_description": "Extreme macro inside the skin: the mosquito proboscis tip splayed open into six thin needles, two serrated saw-tooth needles cutting through pink tissue, two needles holding the tissue apart.",
+       "motion": "The two serrated needles saw back and forth through the tissue while two others spread it apart, camera slowly orbits."}]},
+    {"beat_id": "beat_3", "narration": "Eine spritzt Spucke, die dein Blut flüssig hält. Mit der letzten trinkt sie, bis zum Dreifachen ihres Gewichts.",
+     "shots": [{"shot_id": "beat_3_a", "zoom_impact": true,
+       "scene_description": "Wide macro of the mosquito on the skin, its translucent abdomen swollen and glowing red, full of blood, a stream of red blood flowing up through the proboscis.",
+       "motion": "The translucent abdomen visibly swells and fills with red blood as blood flows up the proboscis, slow push in."}]},
+    {"beat_id": "beat_4", "narration": "Und das Jucken? Das ist dein Körper, der gegen ihre Spucke kämpft. Und genau jetzt passiert es wieder.",
+     "shots": [{"shot_id": "beat_4_a", "zoom_impact": false,
+       "scene_description": "Macro side cross-section of skin: a swollen red itchy bump rising on the skin surface, cute round clay immune cells swarming in the tissue below, and a new mosquito just landing on the skin at the top.",
+       "motion": "Immune cells swarm and the bump swells, then a new mosquito lands on the skin and lowers its proboscis toward the skin, camera slowly pushes in."}]}
+  ]
+}
