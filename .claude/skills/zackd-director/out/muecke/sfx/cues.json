@@ -1,0 +1,8 @@
+[
+ {"file":"sfx/drone.mp3","at":"0","len":29.0,"vol":0.05,"loop":true,"fin":0.05,"fout":0.3},
+ {"file":"sfx/buzz.mp3","at":"0","len":2.2,"vol":7.0,"fin":0.02,"fout":0.7},
+ {"file":"sfx/pierce.mp3","at":"B[0]+0.3","len":2.0,"vol":5.0},
+ {"file":"sfx/saw.mp3","at":"B[1]+2.8","len":3.6,"vol":2.5,"fin":0.2,"fout":0.5},
+ {"file":"sfx/slurp.mp3","at":"B[2]+3.0","len":4.0,"vol":2.2,"fin":0.15,"fout":0.5},
+ {"file":"sfx/buzz.mp3","at":"B[3]+4.9","len":2.4,"vol":6.0,"fin":0.3,"fout":0.05}
+]
